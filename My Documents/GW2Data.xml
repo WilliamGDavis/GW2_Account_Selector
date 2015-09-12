@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<Configuration>
+  <Account id="1">
+    <Number>1</Number>
+    <Name>xRemainNameless.XXX1</Name>
+    <Email>abc@xyz.net</Email>
+    <Password>mypassword</Password>
+    <Server>Gate of Madness</Server>
+    <Key />
+    <LastLogin>02/02/2001 6:06:05 PM</LastLogin>
+  </Account>
+  <Account id="2">
+    <Number>2</Number>
+    <Name>xRemainNameless.XXX2</Name>
+    <Email>abc2@xyz.net</Email>
+    <Password>mypassword2</Password>
+    <Server>Blackgate</Server>
+    <Key />
+    <LastLogin>9/12/2015 6:37:37 PM</LastLogin>
+  </Account>
+  <Account id="3">
+    <Number>3</Number>
+    <Name>xRemainNameless.XXX3</Name>
+    <Email>abc3@xyz.net</Email>
+    <Password>mypassword3</Password>
+    <Server>Jade Quarry</Server>
+    <Key />
+    <LastLogin />
+  </Account>
+</Configuration>
