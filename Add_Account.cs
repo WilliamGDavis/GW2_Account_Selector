@@ -21,15 +21,8 @@ namespace GuildWars2_Launcher
             this.Form1 = parent;
         }
 
-        private void Add_Account_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            //string acctID = "65";
-            string acctNumber = "34";
             string acctName = txt_AcctName.Text.ToString();
             string email = txt_Email.Text.ToString();
             string password = txt_Password.Text.ToString();
