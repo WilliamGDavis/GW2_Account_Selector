@@ -13,7 +13,6 @@ namespace GuildWars2_Launcher
     public partial class Add_Account : Form
     {
         Form1 Form1;
-        //public string acctID;
 
         public Add_Account(Form1 parent)
         {
