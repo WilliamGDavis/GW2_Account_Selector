@@ -20,15 +20,16 @@ namespace GuildWars2_Launcher
             this.Form1 = parent;
         }
 
-        private void btn_Save_Click(object sender, EventArgs e)
+        private void btn_AddAccount_Click(object sender, EventArgs e)
         {
-            string acctName = txt_AcctName.Text.ToString();
-            string email = txt_Email.Text.ToString();
-            string password = txt_Password.Text.ToString();
-            string server = txt_Server.Text.ToString();
-            string prodKey = txt_ProdKey.Text.ToString();
+            string acctName = txt_AddAcctName.Text.ToString();
+            string email = txt_AddEmail.Text.ToString();
+            string password = txt_AddPassword.Text.ToString();
+            string server = txt_AddServer.Text.ToString();
+            string prodKey = txt_AddProdKey.Text.ToString();
             string LastLogin = null;
 
+            //Add the new account info as a new row in the datatable
             Form1.dt.Rows.Add(acctName, email, password, server, prodKey, LastLogin);
 
             //Write the changes back to GW2Data
